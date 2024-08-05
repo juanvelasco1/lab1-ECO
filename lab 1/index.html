@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #data-container {
+            margin-top: 20px;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 600px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+        #fetch-button{
+            color:rgb(255, 255, 255);
+            display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+
+        }
+    #data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 110, 110);
+    padding: 20px;
+    min-height: 50vh; /* Asegura que el contenedor ocupe al menos la altura de la ventana */
+    max-width: 80vh
+    
+    
+}
+  
+  /* Estilos para cada elemento item */
+  .item {
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+   
+  .button-red:hover {
+    background-color: darkred;
+  }
+  
+    
+        </style>
+</head>
+<body>
+    <div id="container"></div>
+
+    <h1>Fetch lab 1</h1>
+    <button id="fetch-button">Fetch anime</button>
+    <div id="data-container"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
